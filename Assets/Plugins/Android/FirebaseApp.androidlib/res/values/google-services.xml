@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">177741143135</string>
+  <string name="google_storage_bucket" translatable="false">blockomania-5a7be.appspot.com</string>
+  <string name="project_id" translatable="false">blockomania-5a7be</string>
+  <string name="google_api_key" translatable="false">AIzaSyCd1-YFYOW1eAThqjFqK-HGI4WhVXH9N7Y</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCd1-YFYOW1eAThqjFqK-HGI4WhVXH9N7Y</string>
+  <string name="google_app_id" translatable="false">1:177741143135:android:d9781c75f79e62f31fcfea</string>
+  <string name="default_web_client_id" translatable="false">177741143135-pd3ubnc5l1g6f8t6faur7mlapkohgoes.apps.googleusercontent.com</string>
+</resources>
