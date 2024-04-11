@@ -149,7 +149,6 @@ namespace GamingMonks
                 valueSprite.GetComponentInChildren<TextMeshProUGUI>().text = m_remainingRotateValue.ToString();
                 PlayerPrefs.SetInt("currentRotatePowerUp", m_remainingRotateValue);
                 freeWithCoinSprite.SetActive(m_remainingRotateValue <= 0);
-                AnalyticsManager.Instance.RotatePowerUpEvent(m_isUsedByInventory, m_purchaseWithCoinAmount);
                 PowerUpsController.Instance.PowerUpsUsedCount++;
                 m_isUsedByInventory = false;
                 CurrencyManager.Instance.UpdatePowerUps();

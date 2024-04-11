@@ -142,7 +142,6 @@ using TMPro;
                     break;
             }
             
-            AnalyticsManager.Instance.ContinueGameEvent(true, 0);
             GamePlayUI.Instance.ResumeGame();
             //Invoke("ResumeGameWithRescue", 1F);
             //if (InputManager.Instance.canInput())
@@ -166,7 +165,6 @@ using TMPro;
                     
                     UIController.Instance.PlayDeductCoinsAnimation(coinsIcon.position, 0.1F);
                     Invoke("ResumeGameWithRescue", 1.5F);
-                    AnalyticsManager.Instance.ContinueGameEvent(false, ProfileManager.Instance.GetAppSettings().rescueGameCoinsCost);
                 }
                 else
                 {

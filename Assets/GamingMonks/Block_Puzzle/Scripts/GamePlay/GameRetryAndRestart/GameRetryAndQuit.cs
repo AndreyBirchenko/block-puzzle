@@ -46,7 +46,6 @@ namespace GamingMonks
             {
                 UIController.Instance.OpenScreenFromTopPanel();
                 HealthController.Instance.UseEnergy();
-                AnalyticsManager.Instance.LevelEvent(GamePlayUI.Instance.level, false, "Quit");
             }
             else
             {
@@ -59,7 +58,6 @@ namespace GamingMonks
                 {
                     UIController.Instance.OpenScreenFromTopPanel();
                     UIController.Instance.OpenLivesPanel();
-                    AnalyticsManager.Instance.LevelEvent(GamePlayUI.Instance.level, false, "Quit Due to life over");
                 }
 
             }

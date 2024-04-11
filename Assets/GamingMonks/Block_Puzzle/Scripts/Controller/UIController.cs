@@ -110,8 +110,6 @@ namespace GamingMonks
                 homeScreen.gameObject.SetActive(false);
                 gameScreen_Tutorial.gameObject.Activate();
                 topPanelWithModeContext.SetModeText(GameMode.Tutorial);
-                AnalyticsManager.Instance.GameLaunchEvent();
-                AnalyticsManager.Instance.TutorialStartedEvent();
                 //cachedSelectedMode = gameMode;
             }
             else

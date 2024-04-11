@@ -184,7 +184,6 @@ public class BombPowerUps : Singleton<BombPowerUps>, IPointerDownHandler, IBegin
                 GamePlay.Instance.blockShapeController.ToggleBlockShapeContainer(true);
                 UIController.Instance.powerUpContextPanel.gameObject.Deactivate();
                 PowerUpsController.Instance.SetAllButtonsActive();
-                AnalyticsManager.Instance.BombPowerUpEvent(m_isUsedByInventory, m_purchaseWithCoinAmount);
                 PowerUpsController.Instance.PowerUpsUsedCount++;
                 ResetBombPowerUp();
             }

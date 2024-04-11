@@ -138,7 +138,6 @@ namespace GamingMonks
                     StartCoroutine(PlayPunchAnimation());
                     ClearRows();
                     PowerUpsController.Instance.PowerUpsUsedCount++;
-                    AnalyticsManager.Instance.BoxingGlovePowerUpEvent();
                     m_canClear = false;
 
                     cancelSprite.SetActive(false);
