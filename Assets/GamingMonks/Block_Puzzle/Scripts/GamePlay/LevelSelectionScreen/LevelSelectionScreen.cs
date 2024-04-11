@@ -227,7 +227,11 @@ namespace GamingMonks
             int currentLevel = PlayerPrefs.GetInt("CurrentLevel");
             for (int i = 0; i < m_levelBtnList.Length; i++)
             {
-                if (i < currentLevel - 1)
+                
+                m_levelBtnList[i].GetComponent<Button>().enabled = true;
+                m_levelBtnList[i].SetupButton(i + 1, ThemeManager.Instance.GetBlockSpriteWithTag("UnlockedAndIncompleted"), false, m_unlockedMaterial);
+                
+                /*if (i < currentLevel - 1)
                 {
                     m_levelBtnList[i].GetComponent<Button>().enabled = true;
                     m_levelBtnList[i].SetupButton(i + 1, ThemeManager.Instance.GetBlockSpriteWithTag("UnlockedAndCompleted"), false, m_unlockedMaterial);
@@ -241,7 +245,7 @@ namespace GamingMonks
                 {
                     m_levelBtnList[i].GetComponent<Button>().enabled = false;
                     m_levelBtnList[i].SetupButton(i + 1, ThemeManager.Instance.GetBlockSpriteWithTag("LockedLevel"), true, m_lockedMaterial);
-                }
+                }*/
             }
             ToggleScrollButtons();
         }
