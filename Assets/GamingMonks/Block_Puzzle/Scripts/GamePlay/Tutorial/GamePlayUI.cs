@@ -170,7 +170,6 @@ namespace GamingMonks.Tutorial
                 CurrencyManager.Instance.SavePackValues(0,4,4,4);
                 //UIController.Instance.LoadGamePlay(GameMode.Classic);
                 UIController.Instance.LoadClassicFromTutorial();
-                AnalyticsManager.Instance.TutorialEndedEvent();
                 PlayerPrefs.SetInt("tutorialShown",1);
             }
         }

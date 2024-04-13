@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Resources>	
+	<!-- Common-->
+	<string name = "txtDataPrivacy" text = "ИНФО КОНФИДЕНЦИАЛЬНОСТИ"/>
+	<string name = "txtPrivacyPolicy" text = "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"/>
+	<string name = "txtContinue" text = "ПРОДОЛЖИТЬ"/>
+	<string name = "txtHome" text = "HOME"/>
+	<string name = "txtOk" text = "ОК"/>
+	<string name = "txtYes" text = "Да"/>
+	<string name = "txtNo" text = "Нет"/>
+	<string name = "txtNote" text = "Внимание!"/>
+	<string name = "txtSuccess" text = "Успех!"/>
+	<string name = "txtAlert" text = "Внимание!"/>
+	<string name = "txtOops" text = "Упс!"/>
+	<string name = "txtOutOfGemsTitle" text = "Не хватает алмазов!"/>
+	<string name = "txtFreeGems" text = "Бесплатные алмазы!"/>
+    <string name = "txtAwesome" text = "БЛЕСТЯЩЕ!"/>
+	<string name = "txtLevel" text = " Уровень " />
+	<string name = "txtRetry" text = " Заново " />
+    
+	<!-- Consent Setting -->
+	<string name = "txtNotNow" text = "Не сейчас"/>
+	<string name = "txtDataSetting_content1" text = "We care about your privacy and data security. We keep apps free by showing ads."/>
+	<string name = "txtDataSetting_content2" text = "Can we continue to use your data to tailor ads for you?"/>
+	<string name = "txtDataSetting_content3" text = "You can change your choice anytime in the app settings. Our partners will collect data and use unique identifier on your device to show you ads. Learm more about how this app and our partners collect and use data :"/>
+
+	<!-- Tutorial Text -->
+	<string name = "txtTutorial1" text = "Поместите блок в подсвеченную зону."/>
+	<string name = "txtTutorial2" text = "Отлично, теперь закончите всю линию чтобы она исчезла."/>
+	<string name = "txtTutorial3" text = "И ещё одну."/>
+	<string name = "txtTutorial4" text = "Здорово, да начнётся веселье"/>
+
+	<!-- Shop -->
+	<string name = "txtShop" text = "МАГАЗИН"/>
+	<string name = "txtRemoveAds" text = "REMOVE ADS!"/>
+	<string name = "txtRestorePurchases" text = "RESTORE PURCHASES"/>
+	<string name = "txtGems_FR" text = "{0} АЛМАЗОВ"/>
+	<string name = "txtExtra_FR" text = "{0}% Дополнительно"/>
+	<string name = "txtGetFree" text = "ПОЛУЧИТЬ БЕСПЛАТНО"/>
+	<string name = "txtThemeUnlocked" text ="Выбрать из настроек"/>
+
+	<!-- Home Screen -->
+	<string name = "txtTitle" text = "ХЕКСА ПАЗЗЛ"/>
+	<string name = "txtPlay" text = "ИГРАТЬ"/>
+    
+    <!-- Select Mode Screen -->
+    <string name = "txtSelectMode" text = "ВЫБРАТЬ РЕЖИМ"/>
+    <string name = "txtClassicMode" text = "КЛАССИЧЕСКИЙ"/>
+    <string name = "txtTimeMode" text = "ВРЕМЕННОЙ"/>
+    <string name = "txtBlastMode" text = "ВЗРЫВНОЙ"/>
+    <string name = "txtAdvanceMode" text = "УСЛОЖНЁННЫЙ"/>
+    
+    <!-- Pause Screen -->
+    <string name = "txtGamePaused" text = "ПАУЗА"/>
+    
+	<!-- Setting Screen -->
+	<string name = "txtSettings" text = "НАСТРОЙКИ"/>
+	<string name = "txtSoundEffect" text = "ЗВУКИ"/>
+	<string name = "txtMusicEffect" text = "МУЗЫКА"/>
+	<string name = "txtVibration" text = "VIBRATION"/>
+	<string name = "txtSelectLang" text = "ВЫБРАТЬ ЯЗЫК"/>
+	<string name = "txtNotitications" text = "NOTIFICATIONS"/>
+	<string name = "txtSupport" text = "ПОДДЕРЖКА"/>
+    
+    <!-- Select Theme Screen -->
+    <string name = "txtSelectTheme" text = "ВЫБРАТЬ ТЕМУ"/>
+	<string name = "txtActive" text = "АКТИВНАЯ"/>
+	<string name = "txtUnlock" text = "РАЗБЛОКИРОВАТЬ"/>
+	<string name = "txtSelect" text = "ВЫБРАТЬ"/>
+
+	<!-- Review Screen -->
+	<string name = "txtEnjoyingGame" text = "НРАВИТСЯ ИГРА?"/>
+	<string name = "txtRateContent" text = "КАК ВЫ ОЦЕНИТЕ ЭТУ ИГРУ?"/>
+	<string name = "txtSubmit" text = "ОТПРАВИТЬ"/>
+
+	<!-- Daily Rewards -->
+	<string name = "txtDailyRewards" text = "ДНЕВНЫЕ НАГРАДЫ"/>
+	<string name = "txtDay_FR" text = "ДЕНЬ {0}"/>
+
+	<!-- Purchase Screen -->
+	<string name = "txtInappSuccessMsg" text = "Награда получена!"/>
+	<string name = "txtInAppRestored" text = "In-App restored successfully."/>
+	<string name = "txtNoRestore" text = "There is no in-app to restore."/>
+	<string name = "txtPurchaseFail" text = "Something went wrong with your purchase. Please try again later."/>
+
+	<!-- Game Tips -->
+	<string name = "txtBombTip" text = "СОВЕТ : ОБЕЗВРЕДЬТЕ БОМБУ, ПРЕЖДЕ ЧЕМ ОНА ВЗОРВЕТСЯ!"/>
+	<string name = "txtTimeTip1" text = "СОВЕТ : СЛЕДИТЕ ЗА ТАЙМЕРОМ!"/>
+	<string name = "txtTimeTip2" text = "СОВЕТ : ЧИСТИТЕ ЛИНИИ ДЛЯ УВЕЛИЧЕНИЯ ТАЙМЕРА!"/>
+
+	<!-- Game Over -->
+	<string name = "txtGameOver" text = "ИГРА ОКОНЧЕНА"/>
+	<string name = "txtGameOver_gridfull" text = "Не могу расставить фигуры!"/>
+	<string name = "txtGameOver_bombexplode" text = "Бомба взорвалась!"/>
+	<string name = "txtGameOver_timeover" text = "Время вышло!"/>
+	<string name = "txtGameOver_outofmove" text = "Ходы закончились!"/>
+
+	<!-- RESCUE -->
+	<string name = "txtDontgiveup" text = "Не могу расставить фигуры!"/>
+	<string name = "txtSubContent" text = "Вы потеряете одну жизнь!"/>
+	<string name = "txtContinuePlaying" text = "Продолжить играть?"/>
+
+	<!-- Quit Game -->
+	<string name = "txtQuitTitle" text = "ВЫЙТИ"/>
+	<string name = "txtQuitConfirm" text = "Вы уверены что хотите выйти?"/>
+
+	<!--FREE GEMS POPUP-->
+	<string name = "txtOutOfGems" text = "Упс! Похоже у вас закончились монетки!"/>
+
+	<!--GAME WIN -->
+	<string name = "txtGetCoin" text = "ПОЛУЧИТЬ "/>
+	
+	<!--POWER UPS Panel-->
+	<string name = "RotatePowerUpIcon" text = "Повернуть блоки."/>
+	<string name = "SinglePowerUpIcon" text = "Превратить в 3 отдельных блока."/>
+	<string name = "BombPowerUpIcon" text = "Используйте бомбу, чтобы уничтожить все в 2 строках и 2 столбцах."/>
+	<string name = "BoxingGlove1" text = "Перетащите боксерскую перчатку, чтобы удалить 1 линию"/>
+	<string name = "BoxingGlove2" text = "Перетащите боксерскую перчатку, чтобы удалить 2 линию"/>
+	<string name = "BoxingGlove3" text = "Перетащите боксерскую перчатку, чтобы удалить 3 линию"/>
+</Resources>

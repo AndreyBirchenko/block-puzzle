@@ -211,7 +211,6 @@ namespace GamingMonks
             }
 
             GameProgressTracker.Instance.UpdateGameModePlayedCount(gameMode);
-            AnalyticsManager.Instance.GamePlayedEvent();
             if(gameMode == GameMode.Classic)
             {
             }
@@ -521,12 +520,9 @@ namespace GamingMonks
                 OnGameOverEvent.Invoke(currentGameMode);
             }
             m_levelCompletingTime = Time.realtimeSinceStartup;
-            AnalyticsManager.Instance.GameLooseEvent();
             if (currentGameMode == GameMode.Level)
             {
                 GameProgressTracker.Instance.UpdateFreqToWinLevel(level);
-                AnalyticsManager.Instance.OutOfMoveEvent();
-                AnalyticsManager.Instance.LevelEvent(level, false, "Lose");
             }
 
             //if (currentGameMode == GameMode.Level)
@@ -584,11 +580,9 @@ namespace GamingMonks
             UIController.Instance.OpenGameWinScreen();
 
             m_levelCompletingTime = Time.realtimeSinceStartup;
-            AnalyticsManager.Instance.GameWinEvent();
             if(currentGameMode == GameMode.Level)
             {
                 GameProgressTracker.Instance.UpdateFreqToWinLevel(level);
-                AnalyticsManager.Instance.LevelEvent(level, true, "Win");
                 GameProgressTracker.Instance.ResetFreqToWinLevel(level);
             }
         }

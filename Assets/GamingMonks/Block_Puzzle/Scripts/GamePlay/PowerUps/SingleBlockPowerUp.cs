@@ -116,7 +116,6 @@ namespace GamingMonks
                 valueSprite.GetComponentInChildren<TextMeshProUGUI>().text = m_remainingSingleBlock.ToString();
                 PlayerPrefs.SetInt("currentSingleBlockPowerUp", m_remainingSingleBlock);
                 freeWithCoinSprite.SetActive(m_remainingSingleBlock <= 0);
-                AnalyticsManager.Instance.SingleBlockPowerUpEvent(m_isUsedByInventory, m_purchaseWithCoinAmount);
                 PowerUpsController.Instance.PowerUpsUsedCount++;
                 m_isUsedByInventory = false;
                 CurrencyManager.Instance.UpdatePowerUps();
